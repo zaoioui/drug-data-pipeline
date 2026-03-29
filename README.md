@@ -1,11 +1,11 @@
 
 # Drug Data Pipeline
 
-## 🎯 Objective
+##  Objective
 
 Build a data pipeline that links drugs with their mentions in scientific publications.
 
-## 🧱 Project Structure
+##  Project Structure
 
 * `data/raw`: input files
 * `data/output`: generated JSON
@@ -25,7 +25,7 @@ Run the pipeline:
 python main.py
 ```
 
-## 📊 Output
+##  Output
 
 The pipeline generates a JSON file that links:
 
@@ -34,7 +34,7 @@ The pipeline generates a JSON file that links:
 * journals
 * dates
 
-## 🔍 Ad-hoc analysis
+##  Ad-hoc analysis
 
 Run:
 
@@ -44,7 +44,7 @@ python src/ad_hoc.py
 
 This returns the journal mentioning the highest number of distinct drugs.
 
-## 🧠 Notes
+##  Notes
 
 * Drug detection is based on title matching
 * Data is cleaned and normalized (lowercase)
