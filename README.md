@@ -50,3 +50,13 @@ This returns the journal mentioning the highest number of distinct drugs.
 * Data is cleaned and normalized (lowercase)
 * Duplicate entries are removed
 
+## 🗄️ SQL Queries
+
+SQL queries are available in the `sql/queries.sql` file.
+
+They include:
+
+* Daily revenue calculation
+* Revenue by client and product category (MEUBLE / DECO)
+
+
